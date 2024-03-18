@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_formulaire.css">
+    <title>Formulaire d'Inscription T.Book</title>
+</head>
+<body>
+    <style>
+        /* Style du bouton d'envoi */
+        .submit-button input[type="submit"] {
+            background-color: #1877F2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            
+        }
+
+        /* Style au survol */
+        .submit-button input[type="submit"]:hover {
+            background-color: #0e5a99;
+        }
+
+        /* Style au clic */
+        .submit-button input[type="submit"]:active {
+            background-color: #0a4577;
+        }
+    </style>
+ <form action="">
+
+        <div class="contenu">
+            <div class="step1">
+                <h2>Employeur Translate Book</h2>
+
+                <label for="nom" style="margin-bottom: 40px;">Nom</label>
+                <input type="text" id="nom" class="nm">
+                
+                
+                <br><label for="motDePasse">N ° Entreprise</label>
+                <input type="password" id="motDePasse" class="nm">
+                <br>
+                <label for="telephone">Télephone</label>
+                <input type="number" id="telephone" class="nm"><br>
+                <label>Adresse</label>
+                <input type="text" class="nm"><br>
+                <label>Code postale</label>
+                <input type="number" class="nm"><br>
+            </div>
+
+            <div class="step2">
+                <h2 style="white-space: nowrap;">Profil Intérimaire</h2> <!--faire tenir le texte sur une ligne  -->
+
+                <label>N° Intérimaire</label>
+                <input type="text" class="nm"><br>
+                <label>Nom</label>
+                <input type="text" class="nm"><br>
+                <label>Telephone</label>
+                <input type="text" class="nm"><br>
+                <label>Adresse</label>
+                <input type="text" class="nm"><br>
+                <label>Date de Début</label>
+                <input type="text" class="nm"><br>
+            </div>
+
+            <div class="step3">
+                <h2>Versement Salaire</h3>
+                <label>N° de carte (Nickel)</label>
+                <input type="text" class="nm"><br>
+                <label>Code 5 chiffres Nickel</label>
+                <input type="number" class="nm"><br>
+            </div>
+                   <div class="submit-button">
+                        <input type="submit" value="Envoyer">
+                    </div>
+
+            </div>
+    </form>
+
+
+</body>
+
+</html>
